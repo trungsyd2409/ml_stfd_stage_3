@@ -1,0 +1,17 @@
+variable,test,statistic,df,p_value,effect_size
+poutcome,Chi-square,4217.7,2.0,<0.001,0.32
+month,Chi-square,3103.7,9.0,<0.001,0.275
+job,Chi-square,960.0,11.0,<0.001,0.153
+contact,Chi-square,860.8,1.0,<0.001,0.145
+default,Chi-square,406.2,2.0,<0.001,0.099
+education,Chi-square,192.4,7.0,<0.001,0.068
+marital,Chi-square,123.2,3.0,<0.001,0.055
+day_of_week,Chi-square,26.0,4.0,<0.001,0.025
+housing,Chi-square,5.8,2.0,0.056,0.012
+loan,Chi-square,1.1,2.0,0.584,0.005
+age,Mann-Whitney U,82840420.0,,0.015,0.022
+campaign,Mann-Whitney U,75347760.0,,<0.001,0.11
+euribor3m,Mann-Whitney U,43474104.0,,<0.001,0.487
+nr_employed,Mann-Whitney U,42537496.0,,<0.001,0.498
+cpi,Mann-Whitney U,65941150.0,,<0.001,0.221
+cci,Mann-Whitney U,91039638.0,,<0.001,0.075

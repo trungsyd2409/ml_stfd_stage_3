@@ -1,0 +1,13 @@
+age_grp,model,n,actual_rate,selected_rate,share_of_customers,share_of_call_list
+17-24,Logistic regression,182,0.269,0.544,0.022,0.06
+25-34,Logistic regression,2757,0.127,0.23,0.335,0.384
+35-44,Logistic regression,2709,0.09,0.14,0.329,0.23
+45-54,Logistic regression,1759,0.072,0.131,0.214,0.14
+55-64,Logistic regression,682,0.135,0.238,0.083,0.098
+65+,Logistic regression,145,0.455,0.986,0.018,0.087
+17-24,Gradient boosting,182,0.269,0.593,0.022,0.066
+25-34,Gradient boosting,2757,0.127,0.234,0.335,0.391
+35-44,Gradient boosting,2709,0.09,0.128,0.329,0.21
+45-54,Gradient boosting,1759,0.072,0.132,0.214,0.141
+55-64,Gradient boosting,682,0.135,0.254,0.083,0.105
+65+,Gradient boosting,145,0.455,0.986,0.018,0.087

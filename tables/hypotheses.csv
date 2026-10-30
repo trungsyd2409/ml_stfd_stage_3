@@ -1,0 +1,6 @@
+hypothesis,test,result
+H1: customers under 25 and 65+ have higher odds than 35-44 (adjusted),Wald z in M4; LRT for the age block,"17-24 OR 1.30 [1.03, 1.64]; 65+ OR 1.48 [1.11, 1.97]; age block LRT p = 0.0183"
+H2: previous campaign success is the strongest customer-level predictor,Odds ratios in M4; permutation importance,"Previous success OR 3.68 [3.17, 4.29], largest customer-level OR; nr_employed dominates overall importance"
+"H3: cellular contact raises the odds, and the channel effect depends on previous outcome",Wald z; LRT for contact x poutcome,"Telephone OR 0.62 [0.54, 0.70]; interaction LRT p = 0.94 (not supported)"
+H4: more calls in the same campaign lower the odds,Wald z for log2_campaign,"OR per doubling 0.93 [0.89, 0.97]"
+H5: a non-parametric model ranks customers better than logistic regression,Paired t-test on CV fold AUCs; bootstrap CI on test AUC difference; phase-3 test,"GB - LR test AUC +0.007, 95% CI [-0.000, +0.015]; phase-3 AUC GB 0.647 vs LR 0.674"

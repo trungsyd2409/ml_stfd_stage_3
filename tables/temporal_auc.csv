@@ -1,0 +1,7 @@
+,Phase-3 ROC-AUC
+Logistic regression,0.674
+KNN,0.602
+Decision tree,0.697
+Gradient boosting,0.647
+Logistic regression (customer and contact only),0.697
+Gradient boosting (customer and contact only),0.698

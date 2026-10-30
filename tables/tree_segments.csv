@@ -1,0 +1,9 @@
+segment rule,customers,share of customers,subscription rate,share of subscribers
+"nr_employed <= 5,087.7 AND poutcome = success AND cpi > 93.2",523,0.016,0.767,0.108
+"nr_employed <= 5,087.7 AND poutcome = success AND cpi <= 93.2",380,0.012,0.642,0.066
+"nr_employed <= 5,087.7 AND poutcome != success AND contact = cellular",2602,0.079,0.385,0.27
+"nr_employed > 5,087.7 AND cci <= -46.6 AND poutcome != failure",1673,0.051,0.236,0.106
+"nr_employed <= 5,087.7 AND poutcome != success AND contact != cellular",482,0.015,0.226,0.029
+"nr_employed > 5,087.7 AND cci <= -46.6 AND poutcome = failure",496,0.015,0.111,0.015
+"nr_employed > 5,087.7 AND cci > -46.6 AND cpi <= 94.0",17096,0.519,0.068,0.313
+"nr_employed > 5,087.7 AND cci > -46.6 AND cpi > 94.0",9682,0.294,0.036,0.093

@@ -1,0 +1,8 @@
+comparison,LR_chi2,df,p_value
+M1 customer profile  ->  M2 + contact history,1826.8,4,0.0
+M2 + contact history  ->  M3 + economy,1332.1,3,1.6096143023282683e-288
+M3 + economy  ->  M4 + timing,358.0,13,1.63441437437494e-68
+M4 + timing  ->  M5 + contact x previous outcome,0.1,2,0.940039047790631
+M4 + timing  ->  M6 + contact x age group,7.3,5,0.2013835520089796
+M4 without age  ->  M4 + timing,13.6,5,0.018277397473811234
+M4 with linear age  ->  M4 with age + age^2,13.4,1,0.00024868325213091383
